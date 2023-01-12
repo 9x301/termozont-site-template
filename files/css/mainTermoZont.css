@@ -1,0 +1,667 @@
+/* root variable */
+:root {
+ 
+    --p-color:          #27466f;
+    --universal-color:  #27466f;
+    --h1-color:         #ffa41b;
+    --nav-text-color:   white;
+    --p-size:   1.125em;
+    --h1-size:  1.857em;
+    --h2-size:  1.125em;
+    --h3-size:  1.000em;
+    --TZ-size:  22px;
+    --info-size: 1.375em;
+    --h-size-moblie: 1.667em;
+    --TZ-font-style : italic;
+    --font: 'Roboto', sans-serif;
+    --h1-family: 'GothamPro', sans-serif;
+    --TZ-family: 'Roboto Condensed', sans-serif;
+    --FS-famaly: 'Roboto Condensed', sans-serif;
+    --p-weight: 300;
+    --h1-weight: 800;
+    --TZ-weight: 400;
+    --h-line-height: 1.3;
+    --p-line-height: 1.45;
+
+    /* img */
+    --start-section:            url("/img/main-bg-tablet.jpg") no-repeat center top;
+    --section-Second:           url("/img/about-bg.jpg") no-repeat center top;
+    --section-about-content :   url("/img/about-content-bg.png")no-repeat right top;
+    --section-third:            url("/img/slider-bg-top.jpg")no-repeat center bottom;
+    --wstText-img:              url("/img/stylish.png")no-repeat left top;
+    --slider-img:               url("/img/slider-bg-bottom-min.jpg") no-repeat center top;
+    --section-fourth:           url("/img/hygienic-bg.png")no-repeat left top;
+    --section-fifth:            url("/img/scheme-min.jpg") no-repeat top;
+    --section-seventh:          url("/img/plesen-bg-min.png")no-repeat left top;
+    --section-seventh-child:    url("/img/finish-bg-plus-min.png") no-repeat center center;
+    --section-footer:           url("/img/slider-bg-topCl.jpg")no-repeat center bottom;
+}
+
+#wrapTermZont
+{
+    font-family: var(--font);
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+#wrapTermZont   p {
+    color: var(--p-color);
+    font-size: var(--p-size);
+    font-family: var(--TZ-family);
+    line-height: var(--p-line-height);
+    font-weight: var(--p-weight);
+}
+
+#wrapTermZont   h1 {
+    font-family: var(--h1-family);
+    color: var(--h1-color);
+    font-weight: var(--h1-weight);
+    font-size: var(--h1-size);
+    line-height:var(--h-line-height);
+    margin: 30px 0px;
+    text-align: center;
+}
+#wrapTermZont   h2 {
+    font-family: var( --h1-family);
+    color: var(--universal-color);
+    font-size: var(--h2-size);
+    line-height:var(--h-line-height);
+    margin: 30px 0px;
+ 
+}
+
+
+ 
+
+.header {
+    display: flex;
+    background-color:var(--universal-color);
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.stampSpan>img {
+    width: 150px;
+    -webkit-box-shadow: 8px 11px 14px 2px rgb(34 60 80 / 82%);
+    -moz-box-shadow: 8px 11px 14px 2px rgba(34, 60, 80, 0.82);
+    box-shadow: 8px 11px 14px 2px rgb(34 60 80 / 82%);
+    transform: rotate(-20deg);
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    background: #27466f;
+}
+.stampSpan>span:last-child {
+    top: 26px;
+    right: 20px;
+}
+ .stampSpan>span:first-child {
+    top: -15px;
+    left: 33px;
+}
+
+.stampSpan>span {
+    position: relative;
+    color: var(--nav-text-color);
+}
+.sectW {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-END;
+    margin-bottom: 10px;
+}
+.textCenter {
+    text-align: center;
+}
+.span
+{
+    display: block;
+    color: var(--p-color);
+    font-size: var( --TZ-size);
+    font-family: var(--FS-famaly);
+     line-height: 1.3;
+    font-weight: var(--p-weight);
+
+
+    
+}
+/* logo */
+.logoNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+.wrapLogo {
+    background-color: var(--universal-color);
+    
+    width: 100%;
+    max-width: 340px;
+   
+    border-radius: 0 0 10px 10px;
+     
+    z-index: 100;
+    position: relative;
+}
+/* END logo */
+/* надпись Termo // zont */
+
+.termocool {
+    font-family: var(--TZ-family);
+    font-weight: var(--TZ-weight);
+    color: var(--universal-color);
+    font-size: var( --TZ-size);
+    font-style: var(--TZ-font-style);
+}
+.termocool>span:nth-child(1) {
+    position: relative;
+    top: 3px;
+    font-style: initial;
+}
+
+.termocool>span:nth-child(2) {
+    position: relative;
+    top: -3px;
+    right: -2px;
+    font-style: initial;
+}
+ /* END надпись Termo // zont */   
+
+
+ 
+ .secTZ{
+    position: relative;
+    width: 100%;
+}
+.containerSmall{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+#startSection {
+    background: var(--start-section) ;
+    height: 850px;
+}
+.circleHeaderImg
+{
+    position: absolute;
+    background-color: #feaa23;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    border:6px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.circleHeaderImg:nth-child(1)
+{
+     top:12%;
+     right:10%
+}
+.circleHeaderImg:nth-child(2)
+{
+     top:40%;
+     left:10%
+}
+
+.circleHeaderImg>img{
+    width: 100%;
+}
+.madeinRussia {
+    position: absolute;
+    width: 181px;
+    height: 38px;
+    top: 500px;
+    right: 20%;
+    background-color: white;
+}
+.spanK:last-child  {
+    font-weight: 400;
+    margin-top: 15px
+}
+.spanK {
+    display: block;
+    color: var(--p-color);
+    font-size: var( --TZ-size);
+    font-family: var(--FS-famaly);
+    font-style: italic;
+    line-height: 1.3;
+    font-weight: var(--p-weight);
+}
+
+/* section secont */
+
+.sectionSecond
+{
+    background: var(--section-Second);
+    height: 839px;
+}
+.wrapSecSecond {
+    display: flex;
+    flex-direction: column;
+    height: 839px;
+    align-items: flex-END;
+    justify-content: space-evenly;
+
+}
+.wrapChldSecondSec
+{
+    max-width: 540px;
+}
+
+
+.wSdImg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    height: 306px;
+    background:var(--section-about-content);
+}
+/* END section second */
+
+/* third section */
+.bgrd {
+    background:var( --section-third);
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.sectionThird {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 99;
+    height: 230px;
+    position:relative;
+    margin-bottom: 10%;
+}
+.wStImg
+{
+    background: var(--wstText-img);
+    background-position-x: 10%;
+    width: 100%;
+    background-size: contain;
+    max-width: 900px;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-END;
+}
+.wStText {
+    width: 550px;
+}
+/* END third section*/
+/* section slide */
+.slide {
+    background: var(--slider-img);
+    height: 612px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+}
+/* END section slide */
+
+/* section fourth  */
+.bgrdF {
+    background: var(--section-fourth );
+    width: 100%;
+    height: 553px;
+    display: flex;
+    justify-content: flex-END;
+    align-items: center;
+    z-index: 99;
+    position: relative;
+}
+/* END fourth  section */
+/* fifth section */
+.sectionFifth{
+    background: var(--section-fifth);
+    height: 938px;
+    margin-top: -156px;
+    margin-bottom: 50px;
+}
+
+
+
+ 
+/* END fifth section */
+
+/*  seventh section*/
+.bgrdFi
+{
+    background: var(--section-seventh);
+    min-height: 500px;
+    height: 100%;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-END;
+    align-items: flex-start;
+}
+.shbox
+{
+    position: relative;
+}
+.bgrdSev
+{
+    background: var(--section-seventh-child);
+    height: 566px;
+    background-size: 100%;
+    position: relative;
+    margin-top: -110px;
+}
+.wrapTextSev
+{
+    width: 400px;
+    position: absolute;
+    top: 420px;
+    left: 135px;
+}
+.prol {
+
+    margin-left: 41%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.prol>span {
+    display: block;
+    font-family: var(--p-first-block);
+    font-size: 17px;
+    color: var(--p-color);
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+
+.prol>span:nth-child(3) {
+    text-align: right;
+}
+
+.wStText>span {
+    text-align: center;
+    font-size: 22px;
+    display: block;
+    color: var(--p-color);
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.wStText>p {
+
+    text-indent: 1em;
+}
+
+.wrapStText {
+    position: relative;
+    top: 0;
+}
+
+.BlurDiv {
+    display: flex;
+    align-items: flex-END;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 14%, rgba(255, 255, 255, 0) 40%);
+}
+.BlurDiv>a {
+    text-decoration: none;
+    color: var(--universal-color);
+}
+/* END seventh section */
+
+/* section footer */
+.bgrM {
+    background: var(--section-footer);
+    margin-top: 5%;
+}
+.items {
+    margin-top: 5%;
+}
+
+.items>img {
+    width: 100%;
+    max-width: 1055px;
+}
+
+.wrapModel {
+    display: flex;
+    align-items: baseline;
+   
+    margin-top: 40px;
+
+
+    justify-content: space-around;
+
+
+}
+
+.ModelDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+ 
+}
+
+.wrapFTlist {
+    display: flex;
+    justify-content: space-between;
+}
+
+.model {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.model {
+    list-style: none;
+}
+.model>li::before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 14px;
+    height: 14px;
+    background: #ff8d0e;
+    border-radius: 50%;
+}
+
+.model>li {
+    font-family: var(--font);
+    padding-left: 20px;
+    position: relative;
+    font-size: 24px;
+    font-weight: 300;
+
+    color: #27466f;
+}
+
+.mB
+{
+    margin-bottom: 4%;
+}
+/*END section footer */
+
+
+/* article-about-mold.html */
+ 
+#blockArt
+{
+display:flex;
+justify-content: space-between;
+width:100%;
+text-align: right;
+margin-bottom:5%;
+
+}
+
+.plesenImg
+{
+height: 200px;
+right: 5%;
+   position: relative;
+   -moz-transform: scale(-1, 1);
+   -o-transform: scale(-1, 1);
+   -webkit-transform: scale(-1, 1);
+   transform: scale(-1, 1);
+}
+#textUp
+{margin-top:5%;
+   width:33%;
+   margin-right: 7%;
+ text-align: left;
+   font-size: 18px;
+       color:#27466f;
+ 
+}
+.wrap_cont
+{
+   background-color: white;
+   padding: 2%;
+   margin: 5% auto;
+border: 1px solid #e3e4e6;
+border-radius: 10px;
+}
+.wrap_cont h2{
+    text-align: left;
+}
+.wrap_cont  i{
+font-style: italic;
+font-family: var(--TZ-family);
+}
+.wrap_cont>p
+{
+ 
+   line-height: 1.45;
+   margin-top: 10px;
+ 
+ 
+   font-weight: 300;
+   text-indent: 20px
+}
+.wrap_cont>li
+{
+       font-family: 'Roboto Condensed', sans-serif;
+   line-height: 1.45;
+   margin-top: 10px;
+   font-size: 18px;
+   
+   font-weight: 300;
+}
+ 
+.wrap_cont>h3
+{
+ padding: 20px 0px 0px 0px;
+}
+.wrap_cont>h4
+{
+       padding:2%;
+        text-decoration: underline;
+}
+.wrap_cont>ul
+{
+   padding-top:1%;
+   padding-bottom: 1%;
+}
+.wrap_cont>ul>li
+{
+    padding-left:5%;
+    margin:8px;
+
+}
+.wrap_cont>ul>li>span
+{
+font-style: italic;
+text-decoration: underline;
+
+}
+.wrap_cont>ul>li::before{
+   content: "-";
+   padding-right: 2px;
+}
+#girlArtc
+{
+   display: block;
+   margin: 0 auto;
+}
+/*END  article-about-mold.html */
+
+
+
+/* media */
+@media (max-width: 991px){
+    .wrapChldSecondSec {
+        max-width: 432px;
+    }
+    .wStText {
+        width: 400px;
+    }
+}
+@media (max-width: 767px)
+{
+    .stampSpan
+    {
+        display: none;
+    }
+    .header
+    {
+        flex-direction: column;
+    }
+
+    .whiteBox {
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 14px;
+        width: 100%;
+        margin:5px;
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+        -webkit-box-shadow: 0px 0px 8px 0px rgb(34 60 80 / 20%);
+        -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 0px 0px 8px 0px rgb(34 60 80 / 20%);
+        position: relative;
+        z-index: 98;
+    }
+    .sectW {
+        
+        justify-content: center;
+        margin-bottom:  0px;
+    }
+.wrapModel {
+    overflow-x: scroll;
+    justify-content: flex-start;
+}
+}
+
+
